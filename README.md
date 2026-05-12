@@ -61,6 +61,7 @@ Add MRI sample images here.
 - Prediction visualization
 - Incorrect prediction analysis
 - Grad-CAM explainability
+- Flask web application
 
 ---
 
@@ -244,7 +245,7 @@ Possible future improvements:
 
 - transfer learning architectures
 - MobileNetV2 or EfficientNet integration
-- Streamlit interface
+- Deploy and develop streamlit interface 
 - improved explainability methods
 - hyperparameter optimization
 
