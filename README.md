@@ -128,18 +128,15 @@ Add Grad-CAM output images here.
 
 ---
 
-## Flask Web Application (Optional)
+## Flask Web Application
 
-If you later add a Flask web interface, place screenshots here.
+![Flask App](output_images/flask_app.png)
 
-![Flask App](output_images/flask_app.jpg)
-
-You can also describe:
+The web app includes these elements:
 
 - image upload interface
 - prediction display
 - confidence scores
-- Grad-CAM visualization integration
 
 ---
 
@@ -247,7 +244,7 @@ Possible future improvements:
 
 - transfer learning architectures
 - MobileNetV2 or EfficientNet integration
-- Flask or Streamlit interface
+- Streamlit interface
 - improved explainability methods
 - hyperparameter optimization
 
