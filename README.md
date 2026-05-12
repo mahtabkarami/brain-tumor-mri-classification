@@ -1,4 +1,4 @@
-Brain Tumor MRI Classification using CNN
+#Brain Tumor MRI Classification using CNN
 
 A deep learning project for multi-class brain tumor classification using MRI scans and Convolutional Neural Networks (CNNs).
 
@@ -22,7 +22,7 @@ The project includes:
 
 ---
 
-Dataset
+##Dataset
 
 Dataset source:
 
@@ -41,7 +41,7 @@ The dataset contains MRI images for:
 
 ---
 
-Dataset Samples
+##Dataset Samples
 
 Add MRI sample images here.
 
@@ -49,7 +49,7 @@ Add MRI sample images here.
 ![Dataset Testing Samples](output_images/testing_image.jpg)
 ---
 
-Features
+##Features
 
 - MRI image preprocessing
 - Data augmentation
@@ -64,7 +64,7 @@ Features
 
 ---
 
-Model Architecture
+##Model Architecture
 
 The project uses a custom CNN architecture with:
 
@@ -77,7 +77,7 @@ The final layer uses softmax activation for multi-class classification.
 
 ---
 
-Training and Validation Curves
+##Training and Validation Curves
 
 Add training accuracy and loss plots here.
 
@@ -85,7 +85,7 @@ Add training accuracy and loss plots here.
 
 ---
 
-Prediction Examples
+##Prediction Examples
 
 Add prediction output examples here.
 
@@ -94,7 +94,7 @@ Add prediction output examples here.
 
 ---
 
-Incorrect Predictions Analysis
+##Incorrect Predictions Analysis
 
 Add examples of misclassified MRI images here.
 
@@ -102,7 +102,7 @@ Add examples of misclassified MRI images here.
 
 ---
 
-ROC/AUC Curve
+##ROC/AUC Curve
 
 Add ROC/AUC visualization here.
 
@@ -110,7 +110,7 @@ Add ROC/AUC visualization here.
 
 ---
 
-Confusion Matrix
+##Confusion Matrix
 
 Add confusion matrix visualization here.
 
@@ -118,7 +118,7 @@ Add confusion matrix visualization here.
 
 ---
 
-Grad-CAM Visualization
+##Grad-CAM Visualization
 
 Grad-CAM is used to highlight image regions influencing the model’s predictions.
 
@@ -128,7 +128,7 @@ Add Grad-CAM output images here.
 
 ---
 
-Flask Web Application (Optional)
+##Flask Web Application (Optional)
 
 If you later add a Flask web interface, place screenshots here.
 
@@ -143,9 +143,9 @@ You can also describe:
 
 ---
 
-File Descriptions
+##File Descriptions
 
-"dataset_loader.py"
+###"dataset_loader.py"
 
 Responsible for:
 
@@ -157,7 +157,7 @@ Responsible for:
 
 ---
 
-"model_builder.py"
+###"model_builder.py"
 
 Responsible for:
 
@@ -168,7 +168,7 @@ Responsible for:
 
 ---
 
-"evaluate.py"
+###"evaluate.py"
 
 Responsible for:
 
@@ -179,7 +179,7 @@ Responsible for:
 
 ---
 
-"predict.py"
+###"predict.py"
 
 Responsible for:
 
@@ -190,7 +190,7 @@ Responsible for:
 
 ---
 
-"gradcam.py"
+###"gradcam.py"
 
 Responsible for:
 
@@ -201,7 +201,7 @@ Responsible for:
 
 ---
 
-Installation
+##Installation
 
 Clone the repository:
 
@@ -213,7 +213,7 @@ pip install -r requirements.txt
 
 ---
 
-Requirements
+##Requirements
 
 Main libraries used in this project:
 
@@ -228,7 +228,7 @@ kaggle
 
 ---
 
-Kaggle API Setup
+##Kaggle API Setup
 
 Download your "kaggle.json" API token from Kaggle account settings and place it in:
 
@@ -241,7 +241,7 @@ files.upload()
 
 ---
 
-Future Improvements
+##Future Improvements
 
 Possible future improvements:
 
@@ -253,7 +253,7 @@ Possible future improvements:
 
 ---
 
-License
+##License
 
 This project is licensed under the MIT License.
 
